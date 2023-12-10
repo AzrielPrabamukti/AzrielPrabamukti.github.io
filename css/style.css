@@ -1,0 +1,77 @@
+
+@font-face {
+    font-family: 'minecraft';
+    src: url('fonts/QueensidesLight.ttf');
+}
+  
+body {
+    font-family: 'minecraft';
+    color: gray;
+    font-size: 100%;
+}
+
+header {
+    text-align: center;
+    font-size: 120%;
+}
+
+.photo-section {
+    height: 50vh;
+}
+
+.photo-container {
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 90%;
+    border: 5px solid gray;
+    border-radius: 10px;
+}
+
+video {
+    
+    width: 512px;
+    height: 512px;
+    
+}
+
+footer {
+    font-size: 80%;
+    padding: 15px;
+    color: white;
+    margin-top: 35%;
+    background-color: gray;
+    text-align: center;
+}
+
+.description {
+    color: gray;;
+    
+}
+
+.orgc {
+    color: orange;
+}
+
+.download-link {
+    display: inline-block;
+    padding: 9px;
+  /*  margin-bottom: 50%;*/
+    color: gray;
+    text-decoration: none;
+    border: 5px solid gray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.socmed {
+    
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 500px;
+    
+}
