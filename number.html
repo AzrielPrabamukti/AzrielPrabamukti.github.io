@@ -1,18 +1,17 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Number Guessing Game</title>
   <link rel="stylesheet" href="css/number.css">
 </head>
 <body>
   <div class="container">
-    <h1>Number Guessing Game</h1>
-    <p>Guess a number between 1 and 10:</p>
+    <h3>Guess a number between 1 and 9</h3>
     <input type="number" id="guessInput" min="1" max="10">
-    <button onclick="checkGuess()">Check Guess</button>
-    <p id="result"></p>
+    <h3><a class="button" onclick="checkGuess()">Check Guess</a></h3>
+    <h3 id="result"></h3>
   </div>
   <script src="javascript/number.js"></script>
 </body>
