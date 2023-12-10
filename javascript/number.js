@@ -11,7 +11,7 @@ function checkGuess() {
   } else {
     attempts++;
     if(guess === secretNumber) {
-    if(attempts > 2){
+    if(attempts > 7){
     resultElement.textContent = `You're sucks bro, you guessed the number in ${attempts} fuckin attempts.`;
     }else{
       resultElement.textContent = `Congratulations! You guessed the number in ${attempts} attempts.`;
